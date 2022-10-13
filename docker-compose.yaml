@@ -8,5 +8,6 @@ web:
     - ./etc/mime.types:/etc/nginx/mime.types:ro
 
     # setup file or folder public
+    - ./errors:/usr/share/nginx/html/errors
     - ./assets:/usr/share/nginx/html/assets
     - ./logs:/etc/nginx/logs
