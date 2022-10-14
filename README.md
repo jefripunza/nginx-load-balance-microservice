@@ -19,6 +19,7 @@ load-balance
         data.json
         more file...
 ```
+![Folder Schemas (explorer)](folder_schemas.png)
 
 ## How to Use
 1. install Docker Desktop or Docker (whatever)
@@ -38,6 +39,7 @@ docker-compose up -d
 - A Service [http://localhost/api/a](http://localhost/api/a)
 - B Service [http://localhost/api/b](http://localhost/api/b)
 - Assets Folder [http://localhost/assets/data.json](http://localhost/assets/data.json)
+![Schemas Routing (diagram)](schema.jpg)
 
 Note :
 - clone semua ini didalam 1 folder (seperti di **Folder Structure**)
