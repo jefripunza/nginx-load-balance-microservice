@@ -1,5 +1,7 @@
 # NGINX Load Balance Microservice
 
+**baca terlebih dahulu sampai bawah/selesai sebelum clone repo ini...**
+
 ## Folder Structure
 ```
 load-balance
