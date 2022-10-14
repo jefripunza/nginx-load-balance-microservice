@@ -1,5 +1,23 @@
 # NGINX Load Balance Microservice
 
+## Folder Structure
+```
+load-balance
+│
+└───Web Service
+│       file project...
+│
+└───A Service
+│       file project...
+│
+└───B Service
+│       file project...
+│
+└───Assets
+        data.json
+        more file...
+```
+
 ## How to Use
 1. install Docker Desktop or Docker (whatever)
 2. create container :
@@ -20,4 +38,6 @@ docker-compose up -d
 - Assets Folder [http://localhost/assets/data.json](http://localhost/assets/data.json)
 
 Note :
-- masukan beberapa file di folder **assets** dan coba buka lewat endpoint **assets**
+- clone semua ini didalam 1 folder (seperti di **Folder Structure**)
+- buatlah sebuah file **data.json** lalu isi dengan data json (whatever)
+- masukan beberapa file di folder **assets** dan coba buka lewat endpoint **assets** seperti **data.json**
