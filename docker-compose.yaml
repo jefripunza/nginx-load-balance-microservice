@@ -13,5 +13,6 @@ services:
       - ../website:/usr/share/nginx/html
 
       # setup file or folder public
+      - ../assets:/usr/share/nginx/html/assets
       - ./errors:/usr/share/nginx/html/errors
       - ../logs:/etc/nginx/logs
