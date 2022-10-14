@@ -19,7 +19,7 @@ load-balance
         data.json
         more file...
 ```
-![Folder Schemas (explorer)](folder_schemas.png)
+![Folder Schemas (explorer)](testing/folder_schemas.png)
 
 ## How to Use
 1. install Docker Desktop or Docker (whatever)
@@ -30,16 +30,21 @@ docker-compose up -d
 3. create all container microservices testing (link bellow)
 
 ## clone all microservices testing
-- [web service](https://github.com/jefripunza/example-web-service.git)
-- [a service](https://github.com/jefripunza/example-a-service.git)
-- [b service](https://github.com/jefripunza/example-b-service.git)
+- [Web Service](https://github.com/jefripunza/example-web-service.git)
+- [A Service](https://github.com/jefripunza/example-a-service.git)
+- [B Service](https://github.com/jefripunza/example-b-service.git)
+![Schemas Routing (diagram)](testing/schema.jpg)
 
-## URL Testing
+## URL Testing (result)
 - React JS [http://localhost](http://localhost)
+  ![React JS (root)](testing/react-js-root.png)
+  ![React JS (more)](testing/react-js-more.png)
 - A Service [http://localhost/api/a](http://localhost/api/a)
+  ![Schemas Routing (diagram)](testing/a-service.png)
 - B Service [http://localhost/api/b](http://localhost/api/b)
+  ![Schemas Routing (diagram)](testing/b-service.png)
 - Assets Folder [http://localhost/assets/data.json](http://localhost/assets/data.json)
-![Schemas Routing (diagram)](schema.jpg)
+  ![Assets Example](testing/assets.png)
 
 Note :
 - clone semua ini didalam 1 folder (seperti di **Folder Structure**)
