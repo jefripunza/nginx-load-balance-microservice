@@ -1,13 +1,17 @@
-web:
-  image: nginx:1.16.0-alpine
-  ports:
-    - "80:80"
-  volumes:
-    # setup nginx
-    - ./nginx.conf:/etc/nginx/nginx.conf:ro
-    - ./etc/mime.types:/etc/nginx/mime.types:ro
+version: '3.8'
+services:
+  load-balance:
+    image: nginx:1.16.0-alpine
+    ports:
+      - "80:80"
+    volumes:
+      # setup nginx
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./etc/mime.types:/etc/nginx/mime.types:ro
 
-    # setup file or folder public
-    - ./errors:/usr/share/nginx/html/errors
-    - ./assets:/usr/share/nginx/html/assets
-    - ./logs:/etc/nginx/logs
+      # website sources
+      - ../website:/usr/share/nginx/html
+
+      # setup file or folder public
+      - ./errors:/usr/share/nginx/html/errors
+      - ../logs:/etc/nginx/logs
