@@ -12,3 +12,12 @@ docker-compose up -d
 - [web service](https://github.com/jefripunza/example-web-service.git)
 - [a service](https://github.com/jefripunza/example-a-service.git)
 - [b service](https://github.com/jefripunza/example-b-service.git)
+
+## URL Testing
+- React JS [http://localhost](http://localhost)
+- A Service [http://localhost/api/a](http://localhost/api/a)
+- B Service [http://localhost/api/b](http://localhost/api/b)
+- Assets Folder [http://localhost/assets/data.json](http://localhost/assets/data.json)
+
+Note :
+- masukan beberapa file di folder **assets** dan coba buka lewat endpoint **assets**
