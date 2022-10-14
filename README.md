@@ -8,17 +8,23 @@
 ```
 load-balance
 │
-└───Web Service
+└─── a-service
 │       file project...
 │
-└───A Service
+└─── assets (create/generate)
+│       data.json
+│       more file...
+│
+└─── b-service
 │       file project...
 │
-└───B Service
+└─── logs (generate)
+│       all log file... (generate)
+│
+└─── nginx (this repo)
 │       file project...
 │
-└───Assets
-        data.json
+└─── web-service
         more file...
 ```
 ![Folder Schemas (explorer)](testing/folder_schemas.png)
