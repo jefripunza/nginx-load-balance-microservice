@@ -2,6 +2,8 @@
 
 **baca terlebih dahulu sampai bawah/selesai sebelum clone repo ini...**
 
+---
+
 ## Folder Structure
 ```
 load-balance
@@ -21,6 +23,8 @@ load-balance
 ```
 ![Folder Schemas (explorer)](testing/folder_schemas.png)
 
+---
+
 ## How to Use
 1. install Docker Desktop or Docker (whatever)
 2. create container :
@@ -29,11 +33,15 @@ docker-compose up -d
 ```
 3. create all container microservices testing (link bellow)
 
-## clone all microservices testing
+---
+
+## Clone All Microservices Testing
 - [Web Service](https://github.com/jefripunza/example-web-service.git)
 - [A Service](https://github.com/jefripunza/example-a-service.git)
 - [B Service](https://github.com/jefripunza/example-b-service.git)
 ![Schemas Routing (diagram)](testing/schema.jpg)
+
+---
 
 ## URL Testing (result)
 - React JS [http://localhost](http://localhost)
