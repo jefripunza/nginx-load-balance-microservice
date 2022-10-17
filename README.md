@@ -27,6 +27,7 @@ load-balance
 └─── web-service
         more file...
 ```
+
 ![Folder Schemas (explorer)](git_assets/folder_schemas.png)
 
 ---
@@ -45,6 +46,7 @@ docker-compose up -d
 - [Web Service](https://github.com/jefripunza/example-web-service.git)
 - [A Service](https://github.com/jefripunza/example-a-service.git)
 - [B Service](https://github.com/jefripunza/example-b-service.git)
+
 ![Schemas Routing (diagram)](git_assets/schema.jpg)
 
 ---
