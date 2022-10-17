@@ -8,6 +8,9 @@
 ```
 load-balance
 │
+└─── api-gateway (this repo)
+│       file project...
+│
 └─── a-service
 │       file project...
 │
@@ -20,9 +23,6 @@ load-balance
 │
 └─── logs (generate)
 │       all log file... (generate)
-│
-└─── nginx (this repo)
-│       file project...
 │
 └─── web-service
         more file...
